@@ -10,7 +10,6 @@ const advocateSchema = new mongoose.Schema({
     experience: Number,
     qualifications: String,
     password:String,
-    cpassword:String,
     services_provided: Array,
 })
 const Advocate = new mongoose.model("Advocate", advocateSchema)
