@@ -30,6 +30,18 @@ app.post("/advocate", async (req, res) => {
     //     console.log(err)
     // }
 
+
+
+    
+    // const user = Advocate.findOne({email:email});
+    // if(!user){
+    //     await Advocate.create({
+    //         name,email,address,license_no,court,contact_no,experience,qualifications,services_provided,password
+    //     })
+    // }else{
+
+    // }
+
 })
 
 
